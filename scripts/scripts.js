@@ -14,7 +14,7 @@ async function displayMeme() {
         const jsonResponse = await response.json();
         //required
         console.log(jsonResponse);
-        const meme = jsonResponse.data.memes[2];
+        const meme = jsonResponse.data.memes[3];
 
         const image = document.createElement("img");
         image.src = meme.url;
@@ -38,3 +38,7 @@ async function displayMeme() {
 //git checkout masterCopied
 
 //How to merge two branches?
+//git pull from original branch
+//switch to the second branch
+//git merge master
+//select incoming change

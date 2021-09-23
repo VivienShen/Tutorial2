@@ -4,6 +4,8 @@ function initializeApp() {
     displayMeme()
 }
 
+
+//Asynchronous 
 async function displayMeme() { 
     try {
         const response = await
@@ -28,4 +30,6 @@ async function displayMeme() {
 //git config --global user.email vivienshen88@gmail.com
 //git config --global user.name VivienShen
 //git remote add origin https://github.com/VivienShen/Tutorial2.git
-
+//git add .
+//git commit -m ""
+//git push --set-upstream origin master

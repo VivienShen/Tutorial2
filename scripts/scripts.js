@@ -5,6 +5,7 @@ function initializeApp() {
 }
 
 
+
 //Asynchronous 
 async function displayMeme() { 
     try {
@@ -33,3 +34,11 @@ async function displayMeme() {
 //git add .
 //git commit -m ""
 //git push --set-upstream origin master
+//git branch renameName master
+//git checkout masterCopied
+
+//How to merge two branches?
+//git pull from original branch
+//switch to the second branch
+//git merge master
+//select incoming change
